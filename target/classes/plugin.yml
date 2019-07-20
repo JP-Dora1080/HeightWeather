@@ -1,0 +1,5 @@
+name: HeightWeather
+version: 1.0
+main: jp.dora.hw.Main
+authors: [Veulx]
+description: HeightWeather Plugin
