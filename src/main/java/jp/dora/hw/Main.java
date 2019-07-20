@@ -39,7 +39,7 @@ public final class Main extends JavaPlugin implements Listener {
             } else {
                 //晴れであれば、晴れ
                 sendGameState(p, 7);
-            }
+        }
     }
 
     //GameStateパケットを送る
