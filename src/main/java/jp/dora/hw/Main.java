@@ -29,8 +29,8 @@ public final class Main extends JavaPlugin implements Listener {
         Location loc = p.getLocation();
         boolean weather = p.getWorld().hasStorm();
 
-        //131ブロックの高さにいるかどうか
-        if(loc.getY() > 131) {
+        //130ブロックの高さにいるかどうか
+        if(loc.getY() > 130) {
             //高さ131ブロックに達したら晴れ
             sendGameState(p, 7);
         } else if(weather) {//雲の下が雨かどうか
