@@ -34,11 +34,11 @@ public final class Main extends JavaPlugin implements Listener {
             //高さ131ブロックに達したら晴れ
             sendGameState(p, 7);
         } else if(weather) {//雲の下が雨かどうか
-                //雨降っていれば、雨
-                sendGameState(p, 2);
-            } else {
-                //晴れであれば、晴れ
-                sendGameState(p, 7);
+            //雨降っていれば、雨
+            sendGameState(p, 2);
+        } else {
+            //晴れであれば、晴れ
+            sendGameState(p, 7);
         }
     }
 
